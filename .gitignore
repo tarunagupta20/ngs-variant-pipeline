@@ -1,0 +1,22 @@
+# Raw data - too large for GitHub
+data/raw/
+data/reference/
+
+# Results - intermediate and large files
+results/trimmed/
+results/aligned/
+results/variants/*.vcf.gz
+results/variants/*.vcf.gz.tbi
+
+# Keep stats and QC reports
+!results/variants/*_stats.txt
+!results/qc/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Logs
+*.log
+*.log
