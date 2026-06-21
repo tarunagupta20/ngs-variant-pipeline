@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.2.0] - 2026-06-21
+### Changed
+- Removed hardcoded server-specific Picard path; now requires --picard argument
+
 ## [1.1.0] - 2026-06-21
 ### Changed
 - Removed hardcoded server-specific GATK path; now requires --gatk argument
