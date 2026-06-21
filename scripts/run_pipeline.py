@@ -47,7 +47,7 @@ def main():
     parser.add_argument("--outdir",  default="results",   help="Output directory (default: results/)")
     parser.add_argument("--threads", default=4, type=int, help="Number of threads (default: 4)")
     parser.add_argument("--picard",  default="/usr/share/java/picard.jar", help="Path to picard.jar")
-    parser.add_argument("--gatk",   default="/home/taruna/gatk-4.6.2.0/gatk-package-4.6.2.0-local.jar", help="Path to GATK jar")
+    parser.add_argument("--gatk", default=None, help="Path to GATK jar (e.g. /path/to/gatk.jar")
     args = parser.parse_args()
 
     # Output subdirectories
